@@ -58,3 +58,21 @@ possible datatype_sign
 - **||** ==> *OR*
 
 - **&&** ==> *AND*
+
+## FILE
+
+#### format
+
+```
+FILE *VARIABLE_NAME;
+
+VARIABLE_NAME = fopen("file","mode");
+
+  {codeBLOCK};
+
+fclose(VARIABLE_NAME);
+```
+##### Possible mode type
+- *w ==> it creates file and write in it*
+- *a ==> writes inside file if present*
+- *r ==> read the content of the file*
