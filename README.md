@@ -76,3 +76,7 @@ fclose(VARIABLE_NAME);
 - *w ==> it creates file and write in it*
 - *a ==> writes inside file if present*
 - *r ==> read the content of the file*
+
+## Some insides
+
+- use single quote for character comparison.
